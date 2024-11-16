@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { FormContext } from '../context/FormContext';
 import '../styles/UserForm.css'
+//create form component on which APIs are implemented
 const UserForm = () => {
     const { formData, errors, updateField, submitForm } = useContext(FormContext);
 
